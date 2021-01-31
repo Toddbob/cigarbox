@@ -1,7 +1,34 @@
 @charset "UTF-8";
-* {box-sizing: border-box}
 /*  @media () --> */
-body {font-family: Helvetica, Arial, "sans-serif"}
-h1 {text-align: center ; font-size: 175%}
-h2 {text-transform: uppercase; text-align: right; font-size: 125%}
+body {font-family: Helvetica, Arial, "sans-serif" ; 
+	margin: 0 ; 
+	padding: 0}
 
+h1 {text-align: center ;
+	font-size: 175%}
+
+div {width:350px;
+	padding: 3px;
+	border: 3px solid black;
+	margin: 10px;
+	box-sizing: border-box;
+	}
+
+h2 {text-transform: uppercase;
+	text-align: center;
+	font-size: 125% ;
+	border: 2px solid black;
+	margin: 8px, 10px, 4px, 50px;
+	padding: 3px;
+	width: 100px;
+	float: right
+	}
+
+p {padding: 10px;
+	clear: right}
+
+#box1 {background-color: bisque}
+
+#box2 {background-color: burlywood}
+
+#box3 {background-color: darkgray}
