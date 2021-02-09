@@ -19,7 +19,7 @@ body{background-color: #F4EE8B;
 	}
 
 .navbar-nav{
-  	margin:0 -15px;
+  	margin: 10px;
 	}
 
 .navbar-brand h1{
@@ -38,7 +38,7 @@ body{background-color: #F4EE8B;
 	}
 
 #nav-list{
-  	border:1px solid;
+  	border:1px solid #000000;
 	}
 
 #nav-list:nth-child(3){
@@ -55,7 +55,7 @@ body{background-color: #F4EE8B;
 	}
 
 #nav-list li a{
-  	color:#000;
+  	color:#000000;
   	font-weight: 600;
   	line-height: 8px
 	}
@@ -66,7 +66,7 @@ body{background-color: #F4EE8B;
 
 .main-title{
   	font-weight: bold;
-  	margin-top: -3px;
+  	margin-top: 10px;
 	}
 
 .menu-content{ 
@@ -83,7 +83,7 @@ body{background-color: #F4EE8B;
   padding: 10px;
 	}
 
-.menu-item h2 {
+.menu-item h3 {
   font-weight: bold;
 	}
 
